@@ -20,7 +20,7 @@ int store_bit_field(int original_value, int value_to_store,
 	i  = ending_bit;
 	//计算掩码
 	for (i = ending_bit; i <= starting_bit; i++)
-        mask = mask | 1 << i;
+            mask = mask | 1 << i;
 	
 	unmask = ~mask;
 	
