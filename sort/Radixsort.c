@@ -30,7 +30,7 @@ int GetDigit(int X, int D)
 void LSDRadxSort(ElementType A[], int N)
 {
 	/*基数排序，次位优先*/
-	int D, Di, i; //D为位数 可以为个位 十位 百位等； Di为某一位的值，也就是代表桶的下表
+	int D, Di, i; //D为位数 可以为个位 十位 百位等； Di为某一位的值，也就是代表桶的下标
 	Bucket B; //这句相当于：struct HeadNode B[Radix];
 	PtrToNode tmp, p, List=NULL;
 	for (i = 0; i < Radix; i++) /*初始化每个桶为空链表*/
