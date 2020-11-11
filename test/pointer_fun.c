@@ -3,7 +3,7 @@
 void fun1(int x);
 void fun2(int x);
 void fun3(int x);
-void funcall1(void(*fun)(int), int x);
+void funcall(void(*fun)(int), int x);
 typedef void(*)(int) p;
 
 
